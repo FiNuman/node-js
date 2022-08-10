@@ -6,7 +6,7 @@
         res.write(chunkdata)
     })
 
-    //this evend fired when there is no more data to read
+    //This evend fired when there is no more data to read
     rstream.on('end',()=>{
         res.end()
     })
