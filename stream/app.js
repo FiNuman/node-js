@@ -1,6 +1,6 @@
 
 
-// full data send in one time
+// Full data send in one time.
     fs.readFile('test.txt',(err,data)=>{
         if(err) return console.error(err);
         res.end(data.toString())
