@@ -9,6 +9,7 @@ const cookie = require('cookie-parser')
 
 
 //------------------------Make Session And Serialize 
+const oneDay = 1000*1000;//milisecound
 app.use(session({
   secret: 'keyboard cat',
   resave: false,
